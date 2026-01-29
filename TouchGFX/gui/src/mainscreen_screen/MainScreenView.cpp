@@ -245,7 +245,7 @@ void MainScreenView::updateBallPosition(uint8_t keymask) {
 
   int ballSpeed = 4;
   if (isBallFast)
-    ballSpeed = 8;
+    ballSpeed = 6;
   if (isBallSlow)
     ballSpeed = 2;
 
