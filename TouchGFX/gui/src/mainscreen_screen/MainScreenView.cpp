@@ -2,7 +2,7 @@
 #include <gui/mainscreen_screen/MainScreenView.hpp>
 #include <images/BitmapDatabase.hpp>
 
-#define RANDOM_POWERUP_PERCENT 5
+#define RANDOM_POWERUP_PERCENT 10
 
 // Simple LCG for RNG
 static uint32_t next_rng = 1;
