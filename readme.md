@@ -45,7 +45,7 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
 - **Mất mạng** khi bóng rơi khỏi đáy (và các điều kiện chết khác theo gameplay):
   - trừ 1 mạng
   - UI cập nhật động (“x lives”)
-  - **delay hồi sinh ~60 ticks** (1 dây) trước khi bóng xuất hiện lại
+  - **delay hồi sinh ~60 ticks** (1 giây) trước khi bóng xuất hiện lại
 - **Game Over** khi lives = 0:
   - hiện hình “Game Over”
   - dừng chuyển động và input gameplay
@@ -80,7 +80,6 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
 - **Họ tên:** Lò Hải Long  | **MSSV:** 20224873
 - **Đóng góp chính:**
   - Cấu hình phần cứng.
-  - Đảm bảo pipeline hiển thị hoạt động ổn định
   - Cài đặt input (GPIO) và tạo game loop chạy được
   - Điều chỉnh logic va chạm với platform/spike và xử lý trạng thái theo timer
 
