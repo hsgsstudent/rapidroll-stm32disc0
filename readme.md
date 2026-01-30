@@ -9,7 +9,7 @@ Project xây dựng trò chơi **Rapid Roll** chạy trực tiếp trên vi đi�
 **Luật chơi tổng quát:**
 - Người chơi điều khiển bóng di chuyển trái/phải để rơi xuống các platform (các platform là các thanh ngang không có gai).
 - Tránh spike (gai) và tránh chạm chướng ngại.
-- Có các power-up: **Life**, **Score Up**, **SpeedUp**, **SlowUp**, **Shield/BlackBall** (giải thích ở trong tài liệu mô tả game: `HDSD - RapidRoll.pdf`).
+- Có các power-up: **Life**, **Score Up**, **SpeedUp**, **SlowUp**, **Shield/BlackBall** (giải thích ở trong tài liệu mô tả game: [HDSD - RapidRoll.pdf](<HDSD - RapidRoll.pdf>)).
 
 ---
 
@@ -92,5 +92,10 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
     - **SpeedUp**, **SlowUp** (tăng/giảm tốc độ bóng)
     - **Shield**, **BlackBall** (giữ quả bóng chịu được 1 mạng trong 10s)
 
+---
 
+## 6) Nội dung mô tả chi tiết game
+[HDSD - RapidRoll.pdf](<HDSD - RapidRoll.pdf>)
 
+## 7) Video demo
+[Video Demo](<https://drive.google.com/file/d/1L51ke66W3xP4Bac4HErq9Y7npx0scmqP/view?usp=sharing>)
