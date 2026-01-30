@@ -81,7 +81,7 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
 - **Đóng góp chính:**
   - Cấu hình phần cứng.
   - Đảm bảo pipeline hiển thị hoạt động ổn định
-  - Cài đặt input (GPIO/touch) và tạo game loop chạy được
+  - Cài đặt input (GPIO) và tạo game loop chạy được
   - Điều chỉnh logic va chạm với platform/spike và xử lý trạng thái theo timer
 
 ### Thành viên 3 – Chức năng game & Power-up
@@ -92,6 +92,7 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
     - **Score Up** (nhân đôi điểm)
     - **SpeedUp**, **SlowUp** (tăng/giảm tốc độ bóng)
     - **Shield**, **BlackBall** (giữ quả bóng chịu được 1 mạng trong 10s)
-  - Tinh chỉnh scoring, spawn power-up và cân bằng game
+  - Tinh chỉnh scoring, spawn power-up
+
 
 
