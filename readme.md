@@ -20,9 +20,9 @@ Thiết lập các chân GPIO tương ứng với việc di chuyển quả bóng
 - tín hiệu sang phải (nút RIGHT) được nối với PC8
   
 
-Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT và RIGHT được đọc không nhờ bitmask bằng việc XOR
-- Nếu nhận tín hiệu LEFT thì XOR với 0x04
-- Nếu nhận tín hiệu RIGHT thì XOR với 0x08
+Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT và RIGHT được đọc không nhờ bitmask bằng việc OR
+- Nếu nhận tín hiệu LEFT thì OR với 0x04
+- Nếu nhận tín hiệu RIGHT thì OR với 0x08
 ---
 
 ## 4) Thiết kế phần mềm

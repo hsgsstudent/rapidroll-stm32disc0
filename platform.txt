@@ -1,6 +1,0 @@
-- The platforms and spikes are evenly spaced vertically (how much is decided by game speed, if speed is low then there are more platforms on screen, if speed is high there are fewer platforms)
-- Use RNG to shift the platform placement left or right (has to stay between the walls boundary)
-- Use RNG to determine whether any platform is switched to a spike, but with few extra conditions:
-  - There can be a maximum of 2 spikes before a platform is spawned again
-  - There can be a maximum of 10 platforms before a spike is spawned (to avoid stale gameplay)
-
