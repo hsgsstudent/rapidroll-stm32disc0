@@ -81,17 +81,16 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
 - **Đóng góp chính:**
   - Cấu hình phần cứng.
   - Cài đặt input (GPIO) và tạo game loop chạy được
-  - Điều chỉnh logic va chạm với platform/spike
+  - Thực hiện logic sinh platform/spike ngẫu nhiên, logic ball va chạm với platform/spike
 
 ### Thành viên 3 – Chức năng game & Power-up
 - **Họ tên:** Nguyễn Hoàng Việt  | **MSSV:** 20220050
 - **Đóng góp chính:**
-  - Thiết kế & implement các power-up:
+  - Implement các power-up:
     - **Life** (ăn vào tăng mạng)
     - **Score Up** (nhân đôi điểm)
     - **SpeedUp**, **SlowUp** (tăng/giảm tốc độ bóng)
     - **Shield**, **BlackBall** (giữ quả bóng chịu được 1 mạng trong 10s)
-  - Tinh chỉnh scoring, spawn power-up
 
 
 
