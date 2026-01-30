@@ -81,7 +81,7 @@ Mỗi lần đọc tín hiệu, hệ thống kiểm tra xem có tín hiệu LEFT
 - **Đóng góp chính:**
   - Cấu hình phần cứng.
   - Cài đặt input (GPIO) và tạo game loop chạy được
-  - Điều chỉnh logic va chạm với platform/spike và xử lý trạng thái theo timer
+  - Điều chỉnh logic va chạm với platform/spike
 
 ### Thành viên 3 – Chức năng game & Power-up
 - **Họ tên:** Nguyễn Hoàng Việt  | **MSSV:** 20220050
